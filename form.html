@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styleform.css">
+   <title>Document</title>
+</head>
+<body>
+   <header>
+    <img class="hphones" src="images/headphones.png" alt="">
+    <h2>
+      СТРАНИЦА ОБРАТНОЙ СВЯЗИ
+    </h2>
+   </header>
+   <h1>
+      Обратная связь
+   </h1>
+   <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+      <div class="form-zvonok"> 
+        <div>
+          <label>ФИО <span>*</span></label>
+          <input class="fio" type='text' name='username' required></div>
+        <div>
+          <label>Номер телефона   <span>*</span></label>
+          <input type='text' name='usernumber' required></div>
+        <div>
+        <div>
+         <label>E-mail  <span>*</span></label>
+         <input class="mail" type='text' name='username' required></div>
+        <div>
+          <label>Сообщение</label>
+          <input class="sms" type='text' name='question'>
+        </div>
+        <a href="index.html"><button action="index.html" class="glow-on-hover" type="button" href="index.html">ОТПРАВИТЬ</button></a>
+      </div>
+      </form>
+</body>
+</html>
